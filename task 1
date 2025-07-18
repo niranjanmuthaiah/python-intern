@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ExpressVPN Inspired Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #1c1c1e;
+    }
+
+    header {
+      background: #fef6ef;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background: #008060;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .features img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    }
+
+    .map-section {
+      background: #fff1f0;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .map-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      font-size: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The VPN that just works</h1>
+    <p>Go further with the #1 trusted leader in VPN</p>
+    <a href="#" class="btn">Get ExpressVPN</a>
+    <p style="margin-top: 1rem; font-size: 0.9rem;">30-day money-back guarantee</p>
+  </header>
+
+  <section class="section">
+    <div class="features">
+      <div>
+        <img src="https://img.icons8.com/fluency/96/lock.png" alt="Secure access" />
+        <h2>Secure access, worldwide</h2>
+        <p>Connect reliably from anywhere with high-speed servers across 94 countries.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/fluency/96/safety-collection-place.png" alt="Safer internet" />
+        <h2>One click to a safer internet</h2>
+        <p>Protect your personal information while shopping or browsing online.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/fluency/96/device-manager.png" alt="Multi device" />
+        <h2>Use on every device</h2>
+        <p>Single subscription works on your phone, tablet, computer, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="features">
+      <div>
+        <img src="https://img.icons8.com/fluency/96/security-checked.png" alt="Data protection" />
+        <h2>Stronger data protection</h2>
+        <p>Take charge of your online privacy with best-in-class encryption.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/fluency/96/network-card.png" alt="Seamless access" />
+        <h2>Works seamlessly everywhere</h2>
+        <p>Browse and stream with ease—at home or on the go.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/fluency/96/speed.png" alt="Speed" />
+        <h2>Lightning-quick connectivity</h2>
+        <p>Our next-gen technology ensures the fastest VPN experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <h2>Ultra-fast servers around the globe</h2>
+    <img src="https://img.icons8.com/fluency/320/world-map.png" alt="World Map" />
+    <div class="stats">
+      <div><strong>160</strong><br />locations</div>
+      <div><strong>94</strong><br />countries</div>
+      <div><strong>&#8734;</strong><br />unlimited bandwidth</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ExpressVPN Clone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
